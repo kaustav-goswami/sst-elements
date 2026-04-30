@@ -58,6 +58,8 @@ libmemHierarchy_la_SOURCES = \
 	membackend/simpleMemScratchBackendConvertor.cc \
 	membackend/cramSimBackend.h \
 	membackend/cramSimBackend.cc \
+	membackend/cxlTimingDRAM.cc \
+	membackend/cxlTimingDRAM.h \
 	memEventBase.h \
 	memEvent.h \
 	memEventCustom.h \

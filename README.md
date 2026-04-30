@@ -20,3 +20,10 @@ See [SST Elements Documentation](http://sst-simulator.org/SSTPages/SSTDeveloperE
 See [Contributing](https://github.com/sstsimulator/sst-elements/blob/devel/CONTRIBUTING.md) to learn how to contribute to SST.
 
 ##### [LICENSE](https://github.com/sstsimulator/sst-elements/blob/devel/LICENSE.md)
+
+## CXL-ClusterSim
+
+This repository implements CXL-like back invalidates in SST as a new element, extended from timingDRAM.
+The idea is simple, i.e. to issue invalides back to gem5 when a host writes into the shared memory backend.
+This is similar to BISnp in CXL.
+
