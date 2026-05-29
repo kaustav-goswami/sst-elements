@@ -96,7 +96,7 @@ void CXLTimingDRAM::sendBackInvalidate(Addr lineAddr, uint64_t targetNode) {
     
     // ✅ FIX: Build ONLY the component name (no port suffix)
     // SST routing uses component names; port is determined by link wiring
-    std::string targetComponentName = nodePrefix + std::to_string(targetNode) + nodeSuffix;;
+    std::string targetComponentName = nodePrefix + std::to_string(targetNode) + nodeSuffix;
     
     // output->verbose(CALL_INFO, 3, DBG_MASK, 
     //     "Sending back-invalidate: addr=%#" PRIx64 " -> component='%s' (full target was '%s%s')\n",
